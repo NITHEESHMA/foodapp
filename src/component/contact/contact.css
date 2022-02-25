@@ -1,0 +1,27 @@
+.contact{
+
+    width: 100%;
+    height:60%;
+    display: flex;
+}
+
+.contact .leftcontact{
+    flex:50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.rightcontact{
+    height: 60%;
+    flex: 50%;
+    justify-content: center;
+
+    flex-direction: column;
+}
+
+ label{
+padding: 8px;
+
+}
+

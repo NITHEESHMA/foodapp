@@ -1,0 +1,24 @@
+.about{
+width: 100%;
+
+height: 100vh;
+
+}
+
+.abouttop{
+width: 80%;
+height:80%;
+margin:10px;
+
+}
+
+.abouttop img{
+    width: 80%;
+    height: 90%;
+}
+
+.aboutbottom p{
+margin-left: 20px;
+margin-right: 40px;
+font-weight: 700;
+}

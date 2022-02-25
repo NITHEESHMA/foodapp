@@ -1,0 +1,35 @@
+.container{
+    width: 100%;
+    max-width: 100%;
+    height:100px ;
+    background-color: rgb(39, 32, 32);
+    display: flex;
+    flex-direction: row;
+    border-bottom: 2px solid white;
+}
+
+.leftside{
+    margin: 3px;
+    flex: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.rightside{
+    flex: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 7px;
+    
+}
+
+.rightside a{
+    text-decoration: none;
+    padding: 12px;
+    color: white;
+    
+}
+

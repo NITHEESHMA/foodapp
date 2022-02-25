@@ -1,0 +1,25 @@
+import React from 'react';
+import TwitterIcon from '@mui/icons-material/Twitter';
+import FacebookIcon from '@mui/icons-material/Facebook';
+import YouTubeIcon from '@mui/icons-material/YouTube';
+import InstagramIcon from '@mui/icons-material/Instagram';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import './footer.css';
+const Footer = () => {
+    return (
+        <div className='footer'>
+            <div className='social'>
+            <TwitterIcon/>
+
+<InstagramIcon/>
+<FacebookIcon/>
+<LinkedInIcon/>
+<YouTubeIcon/>
+
+<p>@copy right 2022 indian food.com</p>
+            </div>
+        </div>
+    );
+};
+
+export default Footer;

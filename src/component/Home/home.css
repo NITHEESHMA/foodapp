@@ -1,0 +1,52 @@
+.home{
+    width: 100%;
+    
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: sans-serif;
+}
+
+.header{
+    margin: auto;
+    width: auto;
+    position: absolute;    
+    height: 200px;
+    z-index: 15;
+    top: 50%;
+    left: 50%;
+    margin: -50px 0 0 -260px;
+    
+}
+
+.header h1{
+justify-content: center;
+color: rgb(18, 32, 221);
+font-size: 70px;
+font-weight: 800;
+align-items: center;
+height: 60px;
+
+}
+
+.header p{
+    padding-top: 10;
+    font-size: 37px;
+    color: black;
+    font-weight: lighter;
+}
+
+.header a ,button{
+    color: black;
+    background-color: #121619;
+    border: none;
+    border-radius: 8px;
+    height: 50px;
+    width: 100px;
+    justify-content: center;
+    color: white;
+}
+
